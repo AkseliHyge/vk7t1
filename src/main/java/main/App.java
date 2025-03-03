@@ -11,6 +11,8 @@ public class App {
         while (i != 0) {
             System.out.println("1) Lisää kirja");
             System.out.println("2) Listaa kirjat");
+            System.out.println("3) Lainaa fiktiokirja");
+            System.out.println("4) Palauta fiktiokirja");
             System.out.println("0) Lopeta ohjelma");
             
             i = scanner.nextInt();
